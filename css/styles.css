@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background-color: hsl(0, 0%, 93%);
+    font-weight: 400;
+}
+
+.main__title {
+    display: block;
+    font-size: 2.5rem;
+}
+.main__text {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cards{
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    margin: 5em auto;
+}
+
+.card{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    padding: 0 2em;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px hsl(240 25% 50% / 0.2);
+    background-color: white;
+}
+.card__title,
+.card__text{
+    text-align: left;
+}
+
+.card__icon{
+    position: absolute;
+    right: 2em;
+    bottom: 2em;
+}
+
+.card--cyan{
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.card--red{
+    border-top: 5px solid hsl(12, 96%, 49%);
+}
+
+.card--orange{
+    border-top: 5px solid hsl(38, 94%, 48%);
+}
+
+.card--blue{
+    border-top: 5px solid hsl(235, 93%, 39%);
+}
+
+.card--left {
+    left: 0;
+    top: 150px;
+}
+
+.card--top {
+    top: 0;
+    left: 425px;
+}
+
+.card--right {
+    right: 0;
+    top:150px ;
+}
+
+.card--bottom {
+    bottom: 0;
+    left: 425px;
+}
+
+.text__light {
+    color: hsl(229, 6%, 66%);
+}
+
+.text__thin {
+    font-weight: 200;
+}
+
+.main__title--bold {
+    font-weight: 600;
+}
